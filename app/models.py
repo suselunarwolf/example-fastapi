@@ -3,10 +3,9 @@ from time import timezone
 #from tkinter import CASCADE
 import sys
 if sys.version_info[0] == 3:
-    import tkinter as tk
+    from tkinter import CASCADE 
 else:
-    import Tkinter as tk
-from tk import CASCADE
+    From Tkinter import CASCADE
 from xmlrpc.client import Boolean
 
 from psycopg2 import Timestamp
