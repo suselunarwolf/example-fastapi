@@ -5,7 +5,7 @@ import sys
 if sys.version_info[0] == 3:
     from tkinter import CASCADE 
 else:
-    From Tkinter import CASCADE
+    from Tkinter import CASCADE
 from xmlrpc.client import Boolean
 
 from psycopg2 import Timestamp
