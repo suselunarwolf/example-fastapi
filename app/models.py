@@ -1,6 +1,12 @@
 from enum import unique
 from time import timezone
-from tkinter import CASCADE
+#from tkinter import CASCADE
+import sys
+if sys.version_info[0] == 3:
+    import tkinter as tk
+else:
+    import Tkinter as tk
+from tk import CASCADE
 from xmlrpc.client import Boolean
 
 from psycopg2 import Timestamp
@@ -27,7 +33,7 @@ class User(Base):
     password = Column(String,nullable = False)
     id = Column(Integer,primary_key = True, nullable = False)
     created_at = Column(TIMESTAMP(timezone=True),nullable = False , server_default=text('now()'))
-    
+
 
 class Vote(Base):
     __tablename__ = "votes"
