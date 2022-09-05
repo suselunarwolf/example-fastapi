@@ -6,7 +6,7 @@ jobs:
   job1: 
     env: 
       DATABASE_HOSTNAME=localhost
-  `   DATABASE_PORT=5432
+      DATABASE_PORT=5432
       DATABASE_PASSWORD=Getready$4
       DATABASE_NAME=fatsapi
       DATABASE_USERNAME=postgres
