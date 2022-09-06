@@ -7,7 +7,7 @@ jobs:
     environment:
       name: testing
     env: 
-      DATABASE_HOSTNAME: localhost
+      DATABASE_HOSTNAME: local
       DATABASE_PORT: 5432
       DATABASE_PASSWORD: Getready$4
       DATABASE_NAME: fatsapi
