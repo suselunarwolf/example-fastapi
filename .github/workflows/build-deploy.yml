@@ -70,4 +70,4 @@ jobs:
 
     steps: 
       - name: " deploying stuff "
-        run: "going to deploy stuff"
+        run: echo "going to deploy stuff"
