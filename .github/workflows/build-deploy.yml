@@ -71,6 +71,8 @@ jobs:
       name: production
 
     steps: 
+      - name: pulling git repo
+        uses: actions/checkout@v2
       - name: " deploying stuff "
         uses: akhileshns/heroku-deploy@v3.12.12 # This is the action
         with:
